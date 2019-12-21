@@ -1,0 +1,11 @@
+[package]
+name = "file-loader"
+version = "0.1.0"
+authors = ["Enrico <enrico.casini@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.2.1"
+indicatif = {version = "*", features = ["with_rayon"]}
