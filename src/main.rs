@@ -9,7 +9,7 @@ use indicatif::ParallelProgressIterator;
 use indicatif::ProgressIterator;
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 
-const FILES_DIR: &str = "../../transcriptions-words";
+const FILES_DIR: &str = ".";
 
 fn main() {
     let start = Instant::now();
